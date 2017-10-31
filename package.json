@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-websocket-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahengchang/nodejs-websocket-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahengchang/nodejs-websocket-example/issues"
+  },
+  "homepage": "https://github.com/wahengchang/nodejs-websocket-example#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "ws": "^3.2.0"
+  }
+}
