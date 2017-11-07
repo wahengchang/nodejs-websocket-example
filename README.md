@@ -9,12 +9,12 @@ $ git clone git@github.com:wahengchang/nodejs-websocket-example.git
 ```
 
 ## Unstanding ws
- `ws` is a WebSocket client and server implementation, fast, and easy to use ([R]ead More](https://stackoverflow.com/questions/16392260/which-websocket-library-to-use-with-node-js)).
+ `ws` is a WebSocket client and server implementation, fast, and easy to use ( [R]ead More](https://stackoverflow.com/questions/16392260/which-websocket-library-to-use-with-node-js) ).
 
 #### client
 `websocket client` is a browser supported object.
 
-Below is goind to introduce 3 importand fucntion:
+There are 3 basic must know fucntions:
  - `ws.onopen` : emmited when connected
  - `ws.send` : sending a send event to websocket server
  - `ws.onmessage` : event emmited when receiving message 
@@ -43,7 +43,7 @@ Below is goind to introduce 3 importand fucntion:
 
 
 #### server
-server code is simple, I think you would understand
+server code is simple.
 
 ```js
 var WebSocketServer = require('ws').Server,
