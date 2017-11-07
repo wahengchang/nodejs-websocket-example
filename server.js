@@ -4,7 +4,7 @@ var ws = require('./ws')
 var app = express()
 
 app.get('/', function (req, res) {
-    res.sendfile(__dirname + '/ws.html');
+    res.sendFile(__dirname + '/ws.html');
 })
 
 app.listen(3000, function () {
